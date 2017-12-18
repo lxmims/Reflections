@@ -1,0 +1,12 @@
+fa4c6bade4970c282b3870ad16f1bde8164663a9
+
+return !(
+bounds1.end_x < bounds2.start_x ||
+bounds2.end_x < bounds1.start_x ||
+bounds1.end_y < bounds2.start_y ||
+bounds2.end_y < bounds1.start_y
+);
+
+clone.x += utils.randomNumber(20, 40);
+clone.y += utils.randomNumber(-30, 30);
+
